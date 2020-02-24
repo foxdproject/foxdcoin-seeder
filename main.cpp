@@ -398,8 +398,8 @@ extern "C" void* ThreadStats(void*) {
 }
 
 
-static const string mainnet_seeds[] = {"seed1.foxrtb.com", "seed2.foxrtb.com", ""};
-static const string testnet_seeds[] = {"tn.s1.foxrtb.com", "tn.s2.foxrtb.com", "tn.s3.foxrtb.com", ""};
+static const string mainnet_seeds[] = {"seed1.foxrtb.com", "seed2.foxrtb.com", "seed3.foxrtb.com", ""};
+static const string testnet_seeds[] = {"t.s1.foxrtb.com", "t.s2.foxrtb.com", "t.s3.foxrtb.com", ""};
 static const string *seeds = mainnet_seeds;
 
 extern "C" void* ThreadSeeder(void*) {
